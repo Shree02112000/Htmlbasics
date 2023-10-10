@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.container{
+    background-color: darkturquoise;
+    height: 40vh;
+    width: 40vh;
+    text-align: center;
+    border-radius: 5px;
+    padding: 80px;
+    box-shadow: 0 2px 4px black;
+
+}
+.inputdata{
+    margin-bottom: 30px;
+}
+.inputdata label{
+    font-size: 20px;
+    font-family: cursive;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.inputdata input[type="text"],.inputdata input[type="password"]{
+        background-color: beige;
+        width: 100%; 
+        padding: 5px;
+}
+.submitbutton button[type="submit"]{
+    background-color: cadetblue;
+    color: seashell;
+    padding: 20px;
+    width: 100px;
+    border-radius: 30px;
+}

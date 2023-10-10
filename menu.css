@@ -3,24 +3,22 @@ body{
 }
 
 .menubar{
-    width: 100%;
-    background-color: cadetblue;
+    width: 50%;
+    background-color: rgb(90, 210, 120);
     overflow: auto;
+    border: 5px solid black;
 }
 .menubar a{
     float: left;
     width: 20%;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     transition: all 0.3s ease;
-    color: wheat;
-    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
 }
 
 .menubar a:hover{
-    background-color: chartreuse;
+    background-color: rgb(244, 255, 244);
 }
 
-.active{
-    background-color: rgb(205, 255, 220);
-}
